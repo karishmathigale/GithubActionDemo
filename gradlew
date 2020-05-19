@@ -171,5 +171,4 @@ fi
 
 exec "$JAVACMD" "$@"
 
-git update-index --chmod=+x gradlew
-git commit -m "Make gradlew executable"
+
