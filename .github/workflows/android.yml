@@ -24,9 +24,9 @@ jobs:
     - name: upload build to App Center
       uses: wzieba/AppCenter-Github-Action@v1.0.0
       with:
-          appName: wzieba/Demo-app
+          appName: karishmathigale-gmail.com/GitHubActionDemo
           token: ${{secrets.APP_CENTER_TOKEN}}
-          group: Testers
+          group: Collaborators
           file: app/build/outputs/apk/debug/app-debug.apk
   
     
